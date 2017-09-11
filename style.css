@@ -1,0 +1,75 @@
+h2
+{
+	background-color: green;
+	height: 200px;
+	widows: 200px;
+}
+h2:hover
+{
+	background-color: yellow;
+}
+h2:active
+{
+	background-color: red;
+}
+h1
+{
+	background-color: purple;
+	height: 200px;
+	widows: 200px;
+}
+h1:hover
+{
+	background-color: gold;
+}
+h1:active
+{
+	background-color: #4B2C01;
+}
+input:focus
+{
+	border-color: green;
+}
+.box
+{
+	background: pink;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+.task3>p:nth-child(2n)
+{
+	background-color: grey;
+}
+.task3>p:first-letter
+{
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 2em;
+}
+.task3>p:after
+{
+	content: '*';
+}
+.task3>p:before
+{
+	content: "\2602";
+}
+.rectangle
+{
+	background-color: black;
+	display: inline-block;
+	height: 40px;
+	margin-left: 50px;
+	position: relative;
+	width: 60px;
+}
+.rectangle:before
+{
+	border: 10px solid transparent;
+	border-right: 20px solid black;
+	content: "";
+	left: -30px;
+	position: absolute;
+	top: 10px;
+}
